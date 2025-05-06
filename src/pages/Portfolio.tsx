@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
@@ -28,30 +27,30 @@ const PortfolioPage = () => {
 
   const portfolioImages = {
     all: [
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961',
-      'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?q=80&w=1962',
-      'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1963',
-      'https://images.unsplash.com/photo-1574073758739-7367151324a6?q=80&w=1964',
-      'https://images.unsplash.com/photo-1604077137850-c6d2e2a66400?q=80&w=1965',
-      'https://images.unsplash.com/photo-1513451732213-5775a1c40335?q=80&w=1966',
-      'https://images.unsplash.com/photo-1604077137850-c6d2e2a66400?q=80&w=1967',
-      'https://images.unsplash.com/photo-1644548553364-a5f1f0db2b8a?q=80&w=1968',
-      'https://images.unsplash.com/photo-1508474722893-c3ccb98db1b2?q=80&w=1969',
+      '/images/portfolio-1.jpg',
+      '/images/portfolio-2.jpg',
+      '/images/portfolio-3.jpg',
+      '/images/portfolio-4.jpg',
+      '/images/portfolio-5.jpg',
+      '/images/portfolio-6.jpg',
+      '/images/portfolio-7.jpg',
+      '/images/portfolio-8.jpg',
+      '/images/portfolio-9.jpg',
     ],
     fashion: [
-      'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?q=80&w=1971',
-      'https://images.unsplash.com/photo-1513451732213-5775a1c40335?q=80&w=1972',
-      'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1973',
+      '/images/portfolio-1.jpg',
+      '/images/portfolio-4.jpg',
+      '/images/portfolio-7.jpg',
     ],
     editorial: [
-      'https://images.unsplash.com/photo-1574073758739-7367151324a6?q=80&w=1974',
-      'https://images.unsplash.com/photo-1604077137850-c6d2e2a66400?q=80&w=1975',
-      'https://images.unsplash.com/photo-1644548553364-a5f1f0db2b8a?q=80&w=1976',
+      '/images/portfolio-2.jpg',
+      '/images/portfolio-5.jpg',
+      '/images/portfolio-8.jpg',
     ],
     beauty: [
-      'https://images.unsplash.com/photo-1508474722893-c3ccb98db1b2?q=80&w=1977',
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1978',
-      'https://images.unsplash.com/photo-1583359426622-d5ae3dcfcd10?q=80&w=1979',
+      '/images/portfolio-3.jpg',
+      '/images/portfolio-6.jpg',
+      '/images/portfolio-9.jpg',
     ],
   };
 

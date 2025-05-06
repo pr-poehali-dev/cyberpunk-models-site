@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import Icon from '@/components/ui/Icon';
@@ -62,7 +61,7 @@ const ContactsPage = () => {
                         <Icon name="MessageCircle" className="text-primary" size={24} />
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2">Telegram</h3>
+                        <h3 className="text-xl font-bold mb-2">Телеграм</h3>
                         <p className="text-foreground/80 mb-4">
                           Самый быстрый способ связаться с нами - написать в Telegram
                         </p>
@@ -98,7 +97,7 @@ const ContactsPage = () => {
             <div className="animate-on-scroll opacity-0">
               <div className="bg-card rounded-lg overflow-hidden h-full flex items-center justify-center border border-border">
                 <img 
-                  src="https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?q=80&w=1770" 
+                  src="/images/contacts.jpg" 
                   alt="Контакты" 
                   className="w-full h-full object-cover"
                 />
@@ -123,7 +122,7 @@ const ContactsPage = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Как принять участие в кастинге?</h3>
                 <p className="text-foreground/80">
-                  Чтобы принять участие в кастинге, выберите интересующий вас проект на странице "Кастинги" и нажмите "Откликнуться". Вы также можете написать нам напрямую в Telegram.
+                  Чтобы принять участие в кастинге, выберите интересующий вас проект на странице "Кастинги" и нажмите "Откликнуться". Вы также можете написать нам прямо в Telegram.
                 </p>
               </CardContent>
             </Card>
@@ -167,8 +166,7 @@ const ContactsPage = () => {
           <div className="max-w-3xl mx-auto text-center animate-on-scroll opacity-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Остались <span className="text-primary neon-glow">вопросы</span>?</h2>
             <p className="text-xl text-foreground/80 mb-8">
-              Не стесняйтесь обращаться к нам за дополнительной информацией. Мы всегда рады помочь!
-            </p>
+              Не стесняйтесь обращаться к нам за дополнительной информацией. Мы всегда рады помочь!</p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/80 text-lg">
               <a href="https://t.me/Vocoders" target="_blank" rel="noopener noreferrer">
                 <Icon name="MessageCircle" className="mr-2" />

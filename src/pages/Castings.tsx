@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -33,7 +32,7 @@ const CastingsPage = () => {
       date: '25 мая 2025',
       location: 'Санкт-Петербург, Центр',
       description: 'Ищем моделей для фотопроекта в стиле киберпанк. Неоновые фотографии в футуристической студии.',
-      image: 'https://images.unsplash.com/photo-1604077137850-c6d2e2a66400?q=80&w=1681'
+      image: '/images/casting-1.jpg'
     },
     {
       id: 2,
@@ -41,7 +40,7 @@ const CastingsPage = () => {
       date: '30 мая 2025',
       location: 'Санкт-Петербург, Петроградская',
       description: 'Требуются модели для рекламной кампании модного бренда. Опыт работы от 1 года.',
-      image: 'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?q=80&w=1682'
+      image: '/images/casting-2.jpg'
     },
     {
       id: 3,
@@ -49,7 +48,7 @@ const CastingsPage = () => {
       date: '5 июня 2025',
       location: 'Санкт-Петербург, Васильевский остров',
       description: 'Концептуальный проект с использованием современных технологий и необычных локаций.',
-      image: 'https://images.unsplash.com/photo-1508474722893-c3ccb98db1b2?q=80&w=1683'
+      image: '/images/casting-3.jpg'
     },
     {
       id: 4,
@@ -57,7 +56,7 @@ const CastingsPage = () => {
       date: '10 июня 2025',
       location: 'Санкт-Петербург, Невский район',
       description: 'Отличная возможность пополнить портфолио. Работаем на условиях ТФП (time for prints).',
-      image: 'https://images.unsplash.com/photo-1644548553364-a5f1f0db2b8a?q=80&w=1684'
+      image: '/images/casting-4.jpg'
     },
     {
       id: 5,
@@ -65,7 +64,7 @@ const CastingsPage = () => {
       date: '15 июня 2025',
       location: 'Санкт-Петербург, Центр',
       description: 'Требуются модели для участия в ежегодном модном показе. Рост от 175 см.',
-      image: 'https://images.unsplash.com/photo-1583359426622-d5ae3dcfcd10?q=80&w=1685'
+      image: '/images/casting-5.jpg'
     },
     {
       id: 6,
@@ -73,7 +72,7 @@ const CastingsPage = () => {
       date: '20 июня 2025',
       location: 'Санкт-Петербург, Приморский район',
       description: 'Ищем моделей для эдиториал съемки для модного журнала. Публикация гарантирована.',
-      image: 'https://images.unsplash.com/photo-1513297887119-d46091b24bfa?q=80&w=1686'
+      image: '/images/casting-6.jpg'
     }
   ];
 
